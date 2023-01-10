@@ -1,1 +1,2 @@
-# sentiment_analysis
+# Twitter Scraping (with Snscrape) & Sentiment Analysis
+#by: Samuel González
