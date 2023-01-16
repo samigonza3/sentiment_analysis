@@ -27,11 +27,10 @@ La manipulación de los datos en general se realiza con Pandas, en algunos casos
 
 El análisis de sentimiento se trabajó con la librería PYSentimiento, una librería muy útil para este tipo de proyectos en español. En general hay mucha documentación y librerías para SA en inglés, pero en español aún faltan más alternativas.
 </br>
-</br>
-<code>from nltk.corpus import stopwords
-from emot.emo_unicode import UNICODE_EMOJI # For emojis
-from nltk.tokenize import word_tokenize # to create word tokensimport nltk
-from nltk.stem import WordNetLemmatizer # to reduce words to orginal form
+</br><code>from nltk.corpus import stopwords
+from emot.emo_unicode import UNICODE_EMOJI
+from nltk.tokenize import word_tokenize 
+from nltk.stem import WordNetLemmatizer
 from pysentimiento.preprocessing import preprocess_tweet
 import seaborn as sns
 import snscrape.modules.twitter as sntwitter
